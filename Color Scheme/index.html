@@ -1,0 +1,55 @@
+
+
+<html>
+    <head>
+        <meta name="Viewport" content="width=device-width,initial-scale=1.0">
+        <title>COLOR SCHEME PROJECT</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Color Scheme Generator</h1>
+        <section class="container">
+        <div class="head">
+            <input type="color" class="select-color" id="select-color" value="#f74a15">
+
+                <select id="color-schemes">
+                    <option value="monochrome">Monochrome</option>
+                    <option value="monochrome-dark">Monochrome Dark</option>
+                    <option value="monochrome-light">Monochrome Light</option>
+                    <option value="analogic">Analogic</option>
+                    <option value="complement">Complement</option>
+                    <option value="analogic-complement">Analogic Complement</option>
+                    <option value="triad">Triad</option>
+                    <option value="quad">Quad</option>
+                </select>
+
+            <button class="btn" id="get-color">Get color scheme</button>
+        </div>
+        
+        <div class="color-box" id="color-box">
+            <div 
+                class="color" style="background-color:#f74a15;">
+            </div>
+            <div 
+                class="color" style="background-color:#141111">
+            </div>
+            <div 
+                class="color" style="background-color:#f2ed54;">
+            </div>
+            <div 
+                class="color" style="background-color:#AAD186;">
+            </div>
+            <div 
+                class="color" style="background-color:#A626D3;">
+            </div>
+
+            <div class="hex">#f74a15</div>
+            <div class="hex">#141111</div>
+            <div class="hex">#f2ed54</div>
+            <div class="hex">#AAD186</div>
+            <div class="hex">#A626D3</div>
+        </div>
+    </section>
+        <script src="script.js"></script>
+    </body>
+</html>
